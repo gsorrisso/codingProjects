@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+font-family: 'Mochiy Pop One', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    height: 800px;
+}
+
+.nav {
+    width: 100%;
+    height: 90px;
+    background-color: #C1C1C1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#login-button {
+    font-size: 30px;
+    border-radius: 10%;
+    width: 130px;
+    margin-right: 20px;
+    color: white;
+    background-color: blue;
+    box-shadow: 2px 11px 15px 4px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 2px 11px 15px 4px rgba(0,0,0,0.37);
+    -moz-box-shadow: 2px 11px 15px 4px rgba(0,0,0,0.37);
+}
+#search-bar {
+    width: 400px;
+    font-size: 24px;
+    border: 4px solid black;
+    height: 42px;
+    box-shadow: 2px 11px 37px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 11px 37px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 11px 37px -5px rgba(0,0,0,0.75);
+}
+.title {
+    font-size: 30px;
+    margin-left: 20px;
+}
+.mainbody {
+    height: 90%;
+    border: 2px solid black;
+}
+.body-top {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    margin-top: 2%;
+}
+.body-top-left{
+    height: 80%;
+    width: 56%;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    font-size: 41px;
+    
+
+}
+.body-top-right{
+    height: 47%;
+    width: 34%;
+    border: 4px solid black;
+    padding: 24px;
+}
+.body-top-right p {
+    font-size: 54px;
+    margin-bottom: 27px;
+    margin-top: -12px;
+}
+#definition-button {
+    font-size: 32px;
+    width: 98%;
+    height: 27%;
+    background-color: #93C47C;
+    color: black;
+    box-shadow: 2px 11px 15px 4px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 2px 11px 15px 4px rgba(0,0,0,0.37);
+    -moz-box-shadow: 2px 11px 15px 4px rgba(0,0,0,0.37);
+
+}
+.body-bottom {
+    width: 56%;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    font-size: 41px;
+    height: 40%;
+
+}
+
+.top-left-left, .body-bottom-left{
+    margin-left: 20px;
+    width: 50%;
+}
+.top-left-left p, .body-bottom-left p{
+    font-size: 25px;
+}
+.top-left-right, .body-bottom-right{
+    font-size: 29px;
+    margin-left: 61px;
+    width: 64%;
+
+}
+
+#noun{margin-left: 55px;}
+#ninja{margin-left: 37px;
+font-size: 70px;}
+
+#like-button {
+    background-color: #FDD966;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    columns: black;
+    border: 4px solid;
+    height: 42px;
+    width: 84%;
+    font-size: 51%;
+
+}

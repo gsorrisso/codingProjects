@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="nav-bar">
+            <div class="nav-left">
+                <h1>Profile</h1>
+                <a class="link1" href="#">Home</a>
+                <a class="link2" href="#"><strong>My Profile</strong></a>
+                <a class="link3" href="#">Find Connections</a>    
+            </div>
+            <div class="nav-right">
+                <button class="signout"><strong>Sign Out</strong></button>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="body-left">
+                <div class="usercard">
+                    <div class="usercard-header">
+                        <img src="icons/user-circle.png" alt="user-circle" class="usercard-image"> 
+                    </div>
+                    <div id="usercardbody" class="usercard-body">
+                        <h2 class="profileName"> Jane Doe</h2>
+                        <p><img src="icons/map-marker.png" alt="map-marker" class="location-img">   Seattle</p>
+                        <p>Developer | Engineer | Problem Solver<br>
+                        Master of shadows and the Internet!</p>
+                        <p onclick="changeName()"><img src="icons/gear.png" alt="gear" class="gear-img"><a href="#">   edit profile</a></p>
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="education-header">
+                        <h3 class="text">Education</h3>    
+                    </div>
+                    <div class="education-body">
+                        <p id="education-text"><strong>Coding Dojo - Full Stack Bootcamp</strong><br>
+                        Dec 2019 - Mar 2020<br>
+                        <strong>Triple black belt in Python, MERN, and C#...</strong></p>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!-- how to make the value change without giving it an initial value? -->
+            <div class="body-right">
+                <div class="requests">
+                    <div id="requestParent" class="request-header">
+                        <h3 class="requestAmount">2</h3>
+                        <p>Connection Requests</p>
+                    </div>
+                    
+                    <div class="request-body">
+                        <div class="todd" id="topdiv">
+                            <p id="toddE" class="nameAndImage" ><img src="images/todd-s.jpg" alt="todd"> Todd E</p>
+                            
+                            <img onclick="topUserAccept()" src="icons/accept-circle.png" alt="accept-circle" id="check-x">
+                            <img onclick="topUserDeny()" src="icons/close-circle.png" alt="close-circle" id="check-x">
+                        </div>
+                        <div class="phil" id="bottomdiv">
+                            <p id="philS" class="nameandpicture"><img src="images/phil-s.jpg" alt="phil-s"> Phil K</p>
+                            <img onclick="bottomUserAccept()" src="icons/accept-circle.png" alt="accept-circle" id="check-x">
+                            <img onclick="bottomUserDeny()" src="icons/close-circle.png" alt="close-circle" id="check-x">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="connections">
+                    <div class="connection-header">
+                    <h3 class="numberOfConnections">500</h3>
+                    <p>Your Connections</p>
+                    </div>
+                    <div class="connection-body">
+                        <div class="body-left" >
+                            <img src="images/adrien-s.jpg" alt="adrien" id="connection-image">
+                            <img src="images/anne-s.jpg" alt="anne"id="connection-image">
+                            <img src="images/alayne-s.jpg" alt="alayne"id="connection-image">
+                            <img src="images/arry-s.jpg" alt="arry"id="connection-image">
+                        </div>
+                        <div class="body-right">
+                            <p id="connection-names">Adrien D</p>
+                            <p id="connection-names">Anne J</p>
+                            <p id="connection-names">Alayne T</p>
+                            <p id="connection-names">Arry Y</p>
+                        </div>
+                    
+                    </div>
+                    <div id="connection-footer">
+                        <a href="#" id="view-more">View More</a>
+        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

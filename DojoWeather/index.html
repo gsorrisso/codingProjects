@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navigation bar top of the screen -->
+    <nav class="main-nav">
+        <h1>DojoWeather</h1>
+        <!-- alerts for each city  -->
+        <p onclick="weatherAlertBurbank()">Burbank</p>
+        <p onclick="weatherAlertChicago()">Chicago</p>
+        <p onclick="weatherAlertDallas()">Dallas</p>
+    </nav>
+    <main class="main">
+        <!-- top nav bar in the mainbody -->
+        <div class="mainNav">
+            <h2>San Jose</h2>
+            <p><label for="degreeType">show temperature in </label>
+            <select onchange="changeToCelsius()" name="#" id="#">
+                <option value="fahrenheit">°F</option>
+                <option value="celsius">°C</option>
+            </select></p>
+        </div>
+        <!-- main body underneath the body navigation -->
+        <div class="mainBody">
+            <div class="today">
+                <h3>Today</h3>
+                <img src="assets/some_rain.png" alt="some_rain">
+                <p>some rain</p>
+                <p class="displayedTemps">75<span>65</span></p>
+            </div>
+            <div class="tomorrow">
+                <h3>Tomorrow</h3>
+                <img src="assets/some_sun.png" alt="some_sun">
+                <p>some sun</p>
+                <p class="displayedTemps">27°<span>19°</span></p>
+            </div>
+            <div class="friday">
+                <h3>Friday</h3>
+                <img src="assets/some_clouds.png" alt="some_clouds">
+                <p>some clouds</p>
+                <p class="displayedTemps">21°<span>16°</span></p>
+            </div>
+            <div class="saturday">
+                <h3>Saturday</h3>
+                <img src="assets/some_sun.png" alt="some_sun">
+                <p>some sun</p>
+                <p class="displayedTemps">26°<span>21°</span></p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <img src="assets/cookie.png" alt="cookie">
+        <div>
+            <h4>Stop! Cookie time</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur sit perspiciatis eligendi ut facere ea qui, deserunt, neque pariatur, cupiditate magnam! Sit at quod rerum nobis libero repellendus eveniet? <a href="#">Read more...</a></p>
+        </div>
+        <button onclick="removeDiv()">I Accept</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+#search {
+    margin: 50px;
+    background-color: turquoise;
+    color: black;
+    border: 2px solid red;
+    border-radius: 40px;
+    font-size: 100px;
+}
+
+#plusbutton {
+    border-radius:50%;
+    background-color: powderblue;
+    color: white;
+    margin: 50px;
+    font-size: 200%;
+}
+
+#createbutton {
+    background-color: blue;
+    color: white;
+    font-size: 400%;
+    box-shadow: 10px 10px 8px black;
+}

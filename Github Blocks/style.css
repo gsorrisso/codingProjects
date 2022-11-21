@@ -1,0 +1,27 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(230, 239, 240);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.red {
+    background-color: red;
+}
+
+.imgsize {
+    height: 200px;
+}

@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 100px;
+    height: 500px;
+}
+
+.topborder {
+    background-color: rgb(59, 160, 160);
+    height: 25%;
+}
+.usercircle {
+    height: 150px;
+    width: 150px;
+    margin-left: 30px;
+    text-align: left;
+    
+}
+h2 {
+    font-size: 50px;
+    width: 500px;
+}
+h4 {
+    margin-left: 25px;
+}
+.locationicon {
+    width: 500px;
+    display: flex;
+    
+
+}
+.locationimg {
+    height: 30px;
+    width: 20px;
+}
+.description {
+    width: 500px;
+}
+.bottom {
+    display: flex;
+    width: 400px;
+
+}

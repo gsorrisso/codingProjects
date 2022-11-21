@@ -1,0 +1,280 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+max-width: 1270px;
+margin: 0 auto;
+border: 4px solid black;
+box-sizing: border-box;
+height: 800px;
+}
+
+.nav-bar {
+height: 10%;
+background-color: black;
+display: flex;
+justify-content: space-between;
+}
+.nav-right span {
+    font-weight: bold;
+}
+
+.nav-left, .nav-right{
+    
+    height: 90%;
+}
+h1 {
+    color: white;
+    font-size: 43px;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+.signout {
+    background-color: #21A2B8;
+    height: 30px;
+    width: 90px;
+    color: white;
+    font-size: 16px;
+}
+.link1, .link2, .link3 {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.body-left, .body-right {
+    height: 100%;
+    
+}
+.main-body {
+    
+    height: 90%;
+    display: flex;
+    
+    
+}
+
+.body-right {
+    width: 45%;
+}
+
+.body-left {
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+}
+.usercard {
+    height: 350px;
+    margin-bottom: 50px;
+    width: 78%;
+    margin-left: 121px;
+    margin-top: 45px;
+    border: 3px solid lightgrey;
+}
+.education {
+    height: 150px;
+    margin-left: 121px;
+    width: 78%;
+    border: 3px solid lightgrey;
+
+}
+.usercard-header {
+    background-color: rgb(79, 189, 201);
+    height: 90px;
+
+}
+.usercard-image {
+    height: 120px;
+    margin-left: 33px;
+    margin-top: 28px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+}
+.location-img {
+    height: 30px;
+}
+.gear-img {
+    height: 20px;
+}
+.usercard-body {
+    margin-top: 60px;
+    margin-left: 15px;
+    font-size: 24px;
+}
+h2, p {
+    margin-bottom: 17px;
+}
+p {
+    font-size: 17px;
+}
+
+.education-header {
+    background-color: black;
+    color: white;
+    height: 15%;
+    width: 505px;
+    margin-top: 0px;
+    padding: 19px;
+    
+}
+.text {
+    height: 40%;
+    margin-left: 15px;
+    font-size: 21px;
+    width: 50%;
+
+}
+.education-body {
+    height: 92px;
+}
+#education-text {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 11px;
+    width: 75%;
+}
+
+.requests {
+    border: 3px solid lightgray;
+    height: 35%;
+    width: 70%;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+.request-header {
+    background-color: black;
+    height: 17%;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.request-header h3 {
+    border-radius: 50%;
+    color: black;
+    font-size: 34px;
+    background-color: #CCCCCC;
+    width: 45px;
+}
+.request-header p {
+    color: white;
+    justify-content: center;
+    height: 0px;
+    font-size: 26px;
+}
+.request-body img{
+    height: 15px;
+}
+.request-body {
+    height: 150px;
+    width: 100%;
+
+}
+#topandbottomdiv {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+.request-body p {
+    font-size: 28px;
+
+}
+.todd p img{
+    height: 65px;
+    border-radius: 50%;
+}
+#check-x {
+    height: 35px;
+}
+.todd, .phil{
+    display: flex;
+    align-items: center;
+    text-align: center
+}
+.phil p img {
+    height: 65px;
+    border-radius: 50%;
+}
+
+.connection-header {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.connection-header p {
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+.connection-header h3 {
+    border-radius: 50%;
+    color: black;
+    font-size: 22px;
+    background-color: #CCCCCC;
+    width: 45px;
+}
+.connections {
+    border: 3px solid lightgray;
+    margin-top: 4%;
+    width: 71%;
+    height: 52%;
+    margin-left: 5%;
+}
+
+.connection-body {
+    height:75%;
+    
+    display: flex;
+}
+
+#connection-image {
+    height: 63px;
+    display: block;
+    margin-left: 17%;
+    margin-bottom: 3%;
+    border-radius: 50%;
+}
+#connection-names {
+    height: 52px;
+    display: block;
+    margin-left: 17%;
+    border-radius: 50%;
+    font-size: 42px;
+}
+.connection-body .body-left{
+    width: 28%;
+    margin-right: 0%;
+
+}
+#connection-footer {
+    border: 3px solid lightgrey;
+}
+
+#view-more {
+    font-size: 26px;
+    margin-left: 15px;
+    
+}

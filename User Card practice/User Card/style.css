@@ -1,0 +1,48 @@
+
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+}
+.cardheader {
+    background-color: rgb(35, 152, 170);
+    height: 130px;
+    margin-bottom: 80px;
+}
+
+.user-card {
+    width: 100%;
+    background-color: white;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.cardbody {
+    padding: 20px;
+    
+}
+.cardbody h2, .cardbody h3, .cardbody p {
+    margin: 20px 0px;
+}
+.useravatar{
+    height: 180px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+.locationicon {
+    height: 50px;
+}
+.gearicon {
+    height: 30px;
+}

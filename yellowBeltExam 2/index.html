@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shelter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav class="nav">
+                <!-- top portion of nav bar -->
+            <div class="top-nav">
+                <div class="topleft-nav">
+                    <h1><img src="assets/heart-light.png" alt="heart-light"> <span> Pet Shelter</span>
+                    </h1>
+                </div>
+                <div class="topright-nav">
+                    <ul class="nav-list">
+                        <li>Find a Pet</li>
+                        <li>About</li>
+                        <li>
+                            <button onclick="disapearButton(this)" id="nav-donate">Donate</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                    <!-- bottom part of nav -->
+            <div class="bottom-nav">
+                <div class="bottom-left-nav">
+                        <!-- seperate divs for 2 forms -->
+                    <div class="forms">
+                        <div class="form-left"> 
+                            <form action="#">
+                                <label>I'm Looking for a...</label><br>
+                                    <img src="assets/paw-light.png" alt="">
+                                <select onchange="giveAlert(this.value)" name="pets" id="petSelector">
+                                    <option value="Dog!">Dog</option>
+                                    <option  value="Cat!">Cat</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="form-right">
+                            <label>In or Near:</label><br><img src="assets/pin-light.png" alt="paw-light">
+                            <input type="text" placeholder="City or Zip Code">
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- start of the bottom right div -->
+                <div class="bottom-right-nav">
+                    <button>Find your new best friend!</button>
+                </div>
+                
+            </div>
+                <!-- bottom portion of nav bar -->
+        </nav>
+        <!-- start of the main -->
+        <main>
+            <div class="main-body">
+                <div class="mainBody-top">
+                    <img src="assets/pepper.jpg" alt="pepper">
+                    <div class="body-top-middle">
+                        <h3>Pepper</h3><br>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, atque dignissimos.</p>
+                    </div>
+                    <div class="body-top-right">
+                        <p id="topPetNum">3 petting(s)</p>
+                        <button onclick="increaseTopPetNum()" class="PetButton">Pet Pepper</button>
+                    </div>
+                </div>
+                <div class="mainBody-middle">
+                    <img src="assets/bruce.jpg" alt="bruce">
+                    <div class="body-middle-middle">
+                        <h3>Bruce</h3><br>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, atque dignissimos.</p>
+                    </div>
+                    <div class="body-middle-right">
+                        <p id="middlePetNum">7 petting(s)</p>
+                        <button onclick="increaseMiddlePetNum()" class="PetButton">Pet Pepper</button>
+                    </div>
+                </div>
+                <div class="mainBody-bottom">
+                    <img src="assets/oscar.jpg" alt="pepper">
+                    <div class="body-bottom-middle">
+                        <h3>Oscar</h3><br>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, atque dignissimos.</p>
+                    </div>
+                    <div class="body-bottom-right">
+                        <p id="bottomPetNum">2 petting(s)</p>
+                        <button onclick="increaseBottomPetNum()" class="PetButton">Pet Pepper</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

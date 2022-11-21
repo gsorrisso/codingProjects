@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 1000px;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: sans-serif;
+}
+.nav {
+    height: 250px;
+    /* border: 4px solid; */
+    background-color: #109B9D;
+    width: 1200px;
+}
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 125px;
+}
+.topright-nav {
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 31px;
+}
+.topleft-nav {
+    width: 50%;
+    height: 125px;
+}
+
+span {
+    font-size: 75px;
+    color: white;
+}
+ul span {
+    font-size: 25px;
+    color: #9900FE;
+}
+h1 {
+    font-size: 10px;
+}
+.topright-nav button {
+    height: 46px;
+    width: 106px;
+    border-radius: 70%;
+    border: 3px solid #9900FE;
+    font-size: 32px;
+    font-weight: bold;
+    color: #9900FE;
+    background-color: #FFFFFF;
+}
+li {
+    margin-right: 70px;
+}
+.forms {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+
+}
+.bottom-nav {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.bottom-left-nav {
+    width: 50%;
+    
+}
+.forms img {
+    height: 38px;
+}
+#petSelector {
+    width: 64px;
+}
+.bottom-right-nav button{
+    color: white;
+    background-color: #9900FE;
+    font-size: 45px;  
+}
+
+.main-body {
+
+height: 1000px;
+}
+.mainBody-top, .mainBody-middle, .mainBody-bottom{
+    height: 25%;
+    padding: 35px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EEEEEE;
+    border-radius: 23%;
+}
+
+.main-body img {
+    height: 200px;
+    border-radius: 30%;
+}
+.main-body h3{
+    font-size: 76px;
+    
+}
+.PetButton {
+    width: 269px;
+    height: 50px;
+    font-size: 36px;
+    margin-top: 20px;
+    background-color: #14CFD0;
+    color: white;
+}
+footer {
+    height: 40px;
+    border: 4px solid;
+    background-color: #C1C1C1;
+}
